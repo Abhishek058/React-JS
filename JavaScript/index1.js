@@ -4,22 +4,12 @@
 
 // ReactDOM.render(<ul><li>1st item</li><li>1st item</li><li>1st item</li></ul>, document.getElementById('root'));
 
-function dropdown() {
-  return (
-  <h2>new file added</h2>
-  );
+function Navbar() {
+  return (<h1>new file added</h1>);
 }
 
-function maincontent() {
-  return (
-  <h1>I am learning React!</h1>
-  );
+function MainContent() {
+  return (<h1>I am learning React!</h1>);
 }
 
-ReactDOM.render(
-  <div>
-    <dropdown />
-    <maincontent />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<div><Navbar /><MainContent /></div>, document.getElementById('root'));
