@@ -21,3 +21,18 @@ const h1 = document.createElement("h1");
 h1.textContent = "This is created using JS";
 h1.className = "header";
 document.getElementById("root").append(h1);
+
+const navb = (
+  <nav>
+      <h1>HalfCoder</h1>
+      <ul>
+          <li>Menu</li>
+          <li>About</li>
+          <li>Contact</li>
+      </ul>
+  </nav>
+)
+
+ReactDOM.render(
+  navb, document.getElementById("navbar")
+);
