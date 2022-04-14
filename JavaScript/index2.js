@@ -1,12 +1,16 @@
-// const divroot = (
-//     <div>
-//         <h1 className="header">This is JSX</h1>
-//         <p>This is pharagraph</p>
-//     </div>
-// )
+import React from "react"
 
-// ReactDOM.render(
-//     divroot,
-//     document.getElementById("root")
-// );
+const navb = (
+    <nav>
+        <h1>HalfCoder</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
 
+ReactDOM.render(
+    navb, document.getElementById("navbar")
+);
