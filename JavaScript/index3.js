@@ -23,7 +23,7 @@ function Footer() {
 
 function MainContent() {
   return (
-    <div>
+    <div className="div-tag">
       <Header />
       <h1>Fun Fact about React</h1>
       <ul>
