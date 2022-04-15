@@ -1,3 +1,6 @@
+// import React from "react"
+// import ReactDOM from "react"
+
 const navb = (
     <nav>
         <h1>HalfCoder</h1>
