@@ -15,7 +15,7 @@ function Header() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-tag">
       <small>2021 All Rights are reserved</small>
     </footer>
   );

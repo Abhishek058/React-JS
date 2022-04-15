@@ -2,10 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 .nav-items{
     list-style: none;
     display: flex;
+}
+.nav-items > li:hover{
+    color: blue;
+    cursor: pointer;
 }
 
 .nav-items > li {
@@ -19,4 +24,8 @@
 .div-tag{
     width: 300px;
     margin-left: 550px;
+}
+
+.footer-tag{
+    background-color: rgba(0, 0, 0, 0.2);
 }
