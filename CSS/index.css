@@ -24,6 +24,8 @@
 .div-tag{
     width: 300px;
     margin-left: 550px;
+    border: 2px solid grey;
+    padding: 30px;
 }
 
 .footer-tag{
