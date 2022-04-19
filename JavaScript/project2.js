@@ -6,10 +6,21 @@ function Navbar() {
   );
 }
 
+function Hero(){
+    return (
+        <section className="hero">
+            <img className="hero--img" src="https://lh3.googleusercontent.com/c2IuYXdthZLPf62TF62_uXpqyLj_RVnLqMGhSoX3Yz8Q0qvlRy6CsGHIM2AWKMunYB_ZvatqYT-xcH_0Q7ZNq-Y_Hu6d5IueOOkUGdiFp5VfIYuPhvcy4XGfHT5-ucqVcPq7CWn3_5SvD4hbL3KRp_Fbjjy_OA_hTQst8CVGBEKzzwMsnebtHOrVtaBcAfvuwDhzkZYShp62XKFL0SdO8iCcst5UiZn2g9yCO1w-eJdx2eYKeakXlPN4AI2FLhPbyrydPBiiPXN48mja_dfzx4z7XY8rjMJL1pRYqLAGTVelgiJ0yKDFCDfYpI-QewD4aMP6FUJtPwLqegKOZj6ybZ913ruOOC6E-CW5gK8mc5jHRACwXJ7X_40x7ZS_Ie_mVDZHqCJTCyrvSvGK5wQLAn45NpviEbNc4gfYzZHAJt91fFKiRFvmoUwDusV1zTaGRMJ8C2dQorOQG7u4xIkOTulvbNurr_SbB-ZxAHquQFWOcAZYdCBt4a_2S_xCq6rmVCxUxZuvQmyk9de-ofaj3wwdHjPP_s2ZE_rmpxwBIJJ7nB__arXUAQKYyFHZBFaUhvVrXwWfTLL2U_9vLsgQ5PPzwt1-Vrk82jCxHOC5TcFe2WhZ0iHETwcMdajpeVb81gkczjuGaViGpRINknPKW-vbzCaHuyqGMUdcLHD5nSp1LyVtFVse1K1YCsuN8IVq--szu-HbVFQJDSDs8N2PL_lleNEjqG58t6Sm3i1pWEMKozXmFlmv03c0S2Rg_w=w792-h464-no?authuser=0" />
+            <h1 className="hero--h">Online Experiences</h1>
+            <p className="hero--p">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home. <br /> Plan a trip with help from local Hosts around the world</p>
+        </section>
+    )
+}
+
 function App() {
   return (
     <div>
       <Navbar />
+      <Hero />
     </div>
   );
 }
