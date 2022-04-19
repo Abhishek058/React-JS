@@ -28,9 +28,13 @@ nav{
     font-size: 20px;
 }
 .card{
-    width: 175px;
-    font-size: 12px;
+    width: 235px;
+    font-size: 17px;
 }
 .card--img{
     width: 100%;
+}
+.card--stats{
+    display: flex;
+    align-items: center;
 }

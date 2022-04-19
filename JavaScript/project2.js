@@ -28,12 +28,12 @@ function Card() {
     <div className="card">
         <img className="card--img" src="https://lh3.googleusercontent.com/n_2zte32y6-XM6BrqEAMwy5Yw2nwD5BNZvgb58tWNdaHl6OPrCjUFBYnwtVllLabIArmK0pwCgdzM-O_6g9r1q-wA8R1xBALC8t8EvWHJp3y_xcuiRSk8t_2MvlBNXhK3s0AIST5xV7mmqP_JvD4nnPM3mjenm8bl0aLU4HWpLuGCIzh6G-frODBVG8PKyBKG2Wd9Qnby335lvrQP_NvSJjpkhpUVfvlg7LEk6HssBVq7Qpjz0CS4FXCO9JMmgCuaxucRemewEjYEa1LJCx4ddZgWJ3_IJ4hxLTo_s4fCG06eV-yn7rVo6xCGVWXqX5cM3eS_Xio3WeAc4H9P2eB6QfnzfzXKBMxpuyt1TLV2sdL_fasRkKultTK9WwojzTIL8yUk0OhgXJoS0jzQVmGtbNQokQEOdwvQWgjoM65oTT1ohqOyxlhJU9QsXV2yIr6e1Sc-HkEugEI0Z-eQ96IpHbEYqR58O7hyJMZlxwT-8IWikagr9Ht2icrUQI4QYuJKExKZkW-Q3c27_pBkSk_HgKkG0lYXDQFmDnUF7Ab2vP5iq3mXa6x2WyZPpMxg0zpymTqTuJjuCIjWMJXVIOwm6Oi3EQG_hVnEg1RqSVMvTDx5qh9KYAiM3IS_AmnpjWzbW_tvfKisWF7JOGtTUeyhrRyFsLABr_9Ma3SjbnOX94f9E3cUIH9QeFE6Xer71azn9CBhVyto0GtCbRLq8-bEVmthmsuxFPvsMI9rSwEYtbPI1R3uBUOaWp-XOPV=w264-h353-no?authuser=0" />
         <div className="card--stats">
-            <img src="https://lh3.googleusercontent.com/sjs3d3rOyEablUwUQKWvHVq9SklHLy84QRLhQ1hB00KhqGq4Q2jk_wkQEy-_BJDC1g5DGpNre7LxSk8nCaou0ZZ6ukIfKgPPLlvFgzi_CVWoQVMdaNZP6obhAm6RrRrMKp4wo3LUIVZlcdKEOwOSsPx3Q88Mj7hgjzJJp1Q1fKp69poPCY_GvURNVFNFdTYRoWcPpsQWfKR3Prst8UCnWFxXNVMS3xLQ4TyELMxkNsXjug9_3oryOsOYk6Ru3YqxtpgcVL_PThWObW8uZUgufjBf2a8JO4pr8tsUdJaRz2dJqStqPFXTHW5mnyJ0PhShD49nNqQyr7u-htRE2-ChDID0fp69B8R24GbWhXjjR-VkAWif9figM_5fihZBrhp4zv-H6NpiG5W3mEmdM9x54nGeN93XUtJRlPhIvUuoGnj372XWLqV2lRNMwq4FnJo4jkMzvF99qsmp0Q0yUHBg5r3GlNFGLumjiUG30gq_hCM-uOrGXongi-oRUFJoXBcrjbAfp2k2um5HN3_lYP0uOaZA0q4jeecHKDZYaQeuv44HaS8Bp7lVZWf3lsOiF3zLyttg9Q2jn-Pi2Vytcxw075a6f3aUD6EKlDedEnZnutNFOONHKuvuwmnqTWtK_6GLyKzzonsYv7nOc2wYCn2dUZOYngXbnmezCkMAMnfUIIS0Ko3kWwK_xLId0IRE5Gi_j_MKnGXcvxjzqDc24vxgos1PfBm7C21V6z6OshEklJUphFsm5FSf7T-bnY9_=w24-h22-no?authuser=0" />
-            <span>5.0</span>
-            <span>(6)</span>
+            <img width="20px" src="https://lh3.googleusercontent.com/sjs3d3rOyEablUwUQKWvHVq9SklHLy84QRLhQ1hB00KhqGq4Q2jk_wkQEy-_BJDC1g5DGpNre7LxSk8nCaou0ZZ6ukIfKgPPLlvFgzi_CVWoQVMdaNZP6obhAm6RrRrMKp4wo3LUIVZlcdKEOwOSsPx3Q88Mj7hgjzJJp1Q1fKp69poPCY_GvURNVFNFdTYRoWcPpsQWfKR3Prst8UCnWFxXNVMS3xLQ4TyELMxkNsXjug9_3oryOsOYk6Ru3YqxtpgcVL_PThWObW8uZUgufjBf2a8JO4pr8tsUdJaRz2dJqStqPFXTHW5mnyJ0PhShD49nNqQyr7u-htRE2-ChDID0fp69B8R24GbWhXjjR-VkAWif9figM_5fihZBrhp4zv-H6NpiG5W3mEmdM9x54nGeN93XUtJRlPhIvUuoGnj372XWLqV2lRNMwq4FnJo4jkMzvF99qsmp0Q0yUHBg5r3GlNFGLumjiUG30gq_hCM-uOrGXongi-oRUFJoXBcrjbAfp2k2um5HN3_lYP0uOaZA0q4jeecHKDZYaQeuv44HaS8Bp7lVZWf3lsOiF3zLyttg9Q2jn-Pi2Vytcxw075a6f3aUD6EKlDedEnZnutNFOONHKuvuwmnqTWtK_6GLyKzzonsYv7nOc2wYCn2dUZOYngXbnmezCkMAMnfUIIS0Ko3kWwK_xLId0IRE5Gi_j_MKnGXcvxjzqDc24vxgos1PfBm7C21V6z6OshEklJUphFsm5FSf7T-bnY9_=w24-h22-no?authuser=0" />
+            <span> &nbsp; 5.0</span>
+            <span>(6) . </span>
             <span>USA</span>
-            <p>Life lessons with Katie Zaferes <br /> From Price:₹1999/person</p>
         </div>
+        <p>Life lessons with Katie Zaferes <br /><b>From Price:₹1999</b>/person</p>
     </div>
   );
 }
